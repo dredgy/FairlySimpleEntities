@@ -1,5 +1,3 @@
-﻿namespace FairlySimpleEntities
+﻿module FairlySimpleEntities.Core
 
-module Say =
-    let hello name =
-        printfn "Hello %s" name
+type DatabaseEngine = MySQL | Postgres | MSSQL
