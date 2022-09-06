@@ -19,3 +19,5 @@ type user = {
 } with member this.table = "users"
 
 let connectToDatabase () = OpenDatabaseConnection DatabaseConfig
+
+let getAllUsers = GetAll<user>
